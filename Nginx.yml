@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Nginx.com
+  name: Nginx.example.com
   labels:
-    app: Nginx.com
+    app: Nginx.example.com
 spec:
   containers:
-  - name: k8s-demo
+  - name: k8s-demo2
     image: docker pull nginx
     ports:
     - name: Nginx-port
