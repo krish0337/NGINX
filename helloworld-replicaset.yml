@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Replicaset
 metadata:
-  name: helloworld-controller
+  name: helloworld-Replicaset
 spec:
   replicas: 2
   selector:
