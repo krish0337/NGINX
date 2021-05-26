@@ -1,12 +1,13 @@
   
 apiVersion: v1
-kind: Replicaset
+kind: ReplicaSet
 metadata:
   name: helloworld-Replicaset
 spec:
   replicas: 2
   selector:
-    app: helloworld
+    matchLabels: 
+      app: helloworld
   template:
     metadata:
       labels:
